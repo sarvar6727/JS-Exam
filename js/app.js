@@ -81,7 +81,7 @@ function calculate(a, b){
     }else {
         console.log('Son emas');
     }
-} 
+}
 
 calculate(10, 40);
 calculate(10, 'son');
