@@ -58,3 +58,30 @@
 
 new String().toLowerCase() method
 */ 
+
+// Masalalar 
+
+// 1) 
+function sum(a, b){
+    return a + b;
+}
+sum(3, 8)
+
+// 2) 
+function calculateYear(userAge){
+    return 2022 - userAge;
+}
+
+calculateYear(12)
+
+// 3) 
+function calculate(a, b){
+    if(typeof(a) === 'number' && typeof(b) === 'number'){
+        console.log(a + b);
+    }else {
+        console.log('Son emas');
+    }
+} 
+
+calculate(10, 40)
+calculate(10, 'son')
