@@ -56,14 +56,14 @@
 
 10) method bu obyektning funksiyasi
 
-new String().toLowerCase() method
+new String().toLowerCase()  bu yerda toLowerCase method
 */ 
 
 // Masalalar 
 
 // 1) 
 function sum(a, b){
-    return a + b;
+    console.log(a+b);
 }
 sum(3, 8)
 
@@ -72,7 +72,7 @@ function calculateYear(userAge){
     return 2022 - userAge;
 }
 
-calculateYear(12)
+console.log(calculateYear(12))
 
 // 3) 
 function calculate(a, b){
@@ -83,5 +83,5 @@ function calculate(a, b){
     }
 } 
 
-calculate(10, 40)
-calculate(10, 'son')
+calculate(10, 40);
+calculate(10, 'son');
